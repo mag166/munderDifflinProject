@@ -9,7 +9,8 @@ header img {
       float: right;
       position: relative;
       top:10px;
-      padding: 30px
+      padding: 30px;
+      font-size: 20px;
   }
 
   a:hover{
@@ -29,11 +30,11 @@ header{
     text-align:center;
     flex-direction: column;
     justify-content: center;
-    background-color: #00b894;
+    background-color: #55efc4;
     position: relative;
     top:-100px;
     width:100%;
-    height:600px
+    height:700px
 }
 
 #section1 img{
@@ -41,6 +42,28 @@ header{
     height: 300px;
     width: 300px;
     padding:20px;
+}
+
+#section2{
+    background-color:#0984e3;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top:-100px;
+    height:700px;
+}
+
+#section2 img{
+    align-self: center;
+    height: 300px;
+    width: 300px;
+    padding:20px;
+}
+
+#section2 p{
+    padding:20px;
+    align-self: center;
 }
 
 @keyframes show {
