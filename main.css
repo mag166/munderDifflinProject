@@ -38,10 +38,16 @@ header{
 }
 
 #section1 img{
+    opacity: 0;
     align-self: center;
     height: 300px;
     width: 300px;
     padding:20px;
+    animation: show 2s forwards
+}
+#section1 h1{
+    opacity: 0;
+    animation: show 2s forwards;
 }
 
 #section2{
@@ -53,6 +59,16 @@ header{
     top:-100px;
     height:700px;
 }
+#section2 h1{
+    position: absolute;
+    font-size:50px;
+    top:30px;
+}
+
+#img2{
+    position: relative;
+   top:30px;
+}
 
 #section2 img{
     align-self: center;
@@ -60,11 +76,13 @@ header{
     width: 300px;
     padding:20px;
 }
-
-#section2 p{
-    padding:20px;
+.imgCaption{
+    opacity: 0;
     align-self: center;
+    text-align: center;
 }
+
+
 
 @keyframes show {
     0% {
