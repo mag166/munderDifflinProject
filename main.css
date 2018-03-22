@@ -1,14 +1,15 @@
 header img {
     float: left;
     position: relative;
-    width: 200px;
-    height: 200px;
+    transform: scale(1.3);
+    width: 150px;
+    height: 150px;
   }
 
 header a{
     float: right;
     position: relative;
-    top:55px;
+    top:40px;
     padding: 30px;
     font-size: 20px;
 }
@@ -102,6 +103,11 @@ a:hover{
     width:600px;
     height: 400px;
     align-self:center;
+}
+
+#imageSection{
+    height:700px;
+    background-image:url("trees.png")
 }
 
 #section4{
