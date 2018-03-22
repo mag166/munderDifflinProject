@@ -72,14 +72,73 @@ header{
 
 #section2 img{
     align-self: center;
-    height: 300px;
-    width: 300px;
+    transition: transform .2s;
+    height: 200px;
+    width: 200px;
     padding:20px;
+}
+
+#section2 img:hover{
+    transform: scale(1.5);
 }
 .imgCaption{
     opacity: 0;
     align-self: center;
     text-align: center;
+}
+
+#section3{
+     background-color: #a29bfe;
+     height:700px;
+     top:-100px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section3 h1 {
+    position: absolute;
+    font-size:50px;
+}
+
+#section4{
+    background-color: #55efc4;
+    height: 700px;
+    text-align:center;
+    top: -100px;
+    position: relative;
+    display:flex;
+    justify-content: space-around;
+}
+
+#section4 h1{
+    font-size:50px;
+    position: absolute;
+}
+
+#section4 form{
+    position: relative;
+    top:100px;
+}
+
+.inputText{
+    width:400px
+}
+
+#message{
+    height: 400px;
+}
+
+footer{
+    position: relative;
+    top:-120px;
+    text-align: center;
+    background-color: red
+}
+
+footer p{
+    padding: 30px;
 }
 
 

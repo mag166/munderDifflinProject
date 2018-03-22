@@ -10,4 +10,7 @@ window.addEventListener('scroll', (event) => {
          img3.style.animation = "show 4.5s forwards"
 
     }
-});
+})
+
+
+;
