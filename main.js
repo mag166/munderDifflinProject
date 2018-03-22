@@ -1,4 +1,7 @@
+
+
 window.addEventListener('scroll', (event) => {
+
     if(scrollY>500){
          let img1 = document.getElementById("icon1")
          img1.style.animation = "show 1.5s forwards"

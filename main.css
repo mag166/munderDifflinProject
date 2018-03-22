@@ -95,17 +95,25 @@ header{
     text-align: center;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
 }
 
 #section3 h1 {
-    position: absolute;
-    font-size:50px;
+       font-size:50px;
 }
 
 #section3 p{
     position: relative;
-    top:100px;
+    top:-50px;
     font-size: 20px
+}
+
+#section3 img{
+    width:600px;
+    height: 400px;
+    align-self:center;
+    position: relative;
+    top: -40px;
 }
 
 #section4{
