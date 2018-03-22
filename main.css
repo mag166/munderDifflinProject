@@ -51,7 +51,7 @@ header{
 }
 
 #section2{
-    background-color:#0984e3;
+    background-color:#74b9ff;
     position: relative;
     display:flex;
     flex-direction: row;
@@ -88,7 +88,7 @@ header{
 }
 
 #section3{
-     background-color: #a29bfe;
+    background-color: #55efc4;
      height:700px;
      top:-100px;
     position: relative;
@@ -102,8 +102,14 @@ header{
     font-size:50px;
 }
 
+#section3 p{
+    position: relative;
+    top:100px;
+    font-size: 20px
+}
+
 #section4{
-    background-color: #55efc4;
+    background-color:#74b9ff;
     height: 700px;
     text-align:center;
     top: -100px;
@@ -119,6 +125,7 @@ header{
 
 #section4 form{
     position: relative;
+    font-size: 20px;
     top:100px;
 }
 
@@ -134,7 +141,7 @@ footer{
     position: relative;
     top:-120px;
     text-align: center;
-    background-color: red
+    background-color: #55efc4;
 }
 
 footer p{
