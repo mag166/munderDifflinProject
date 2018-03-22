@@ -96,13 +96,15 @@ a:hover{
 
 #section3 p{
     position: relative;
-    font-size: 20px
+    font-size: 20px;
+    opacity: 0;
 }
 
 #section3 img{
     width:600px;
     height: 400px;
     align-self:center;
+    opacity: 0;
 }
 
 #imageSection{
@@ -141,6 +143,7 @@ a:hover{
     position: relative;
     font-size: 20px;
     top:100px;
+    opacity: 0;
 }
 
 .inputText{
