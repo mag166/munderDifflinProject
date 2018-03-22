@@ -19,6 +19,8 @@ let overlay = document.getElementById("overlay")
 overlay.onclick = function() {
     let overlayText = document.getElementById("overlayText")
     overlayText.textContent = "No, not really."
+    overlay.style.animation = "spinDiv 1s forwards";
+
 };
 
 
