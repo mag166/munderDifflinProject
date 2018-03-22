@@ -107,9 +107,23 @@ a:hover{
 
 #imageSection{
     height:700px;
-    background-image:url("trees.png")
+    background-image:url("trees.png");
+    display:flex;
+    justify-content: center;
 }
-
+#overlay{
+    align-self: center;
+    width: 500px;
+    height:300px;
+    text-align: center;
+    background-color:rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+}
+#overlay h2{
+    color:white;
+    align-self: center;
+}
 #section4{
     background-color:#74b9ff;
     height: 700px;
