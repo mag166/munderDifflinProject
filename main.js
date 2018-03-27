@@ -14,10 +14,10 @@ window.addEventListener('scroll', (event) => {
     }
 
     if(scrollY>1200){
-        let paragraph = document.getElementsByTagName("p")[0]
+        let paragraph = document.getElementById("about-paragraph")
         paragraph.style.animation = "show 1.5s forwards"
 
-        let image = document.getElementById("businessImage")
+        let image = document.getElementById("business-image")
         image.style.animation = "show 3.5s forwards"
     }
 
@@ -32,13 +32,14 @@ window.addEventListener('scroll', (event) => {
 
 
 let overlay = document.getElementById("overlay")
-overlay.onclick = function() {
-    let overlayText = document.getElementById("overlayText")
+overlay.addEventListener("click", (event) => {
+    let overlayText = document.getElementById("overlay-text")
     overlayText.textContent = "No, not really."
     overlay.style.opacity = 1.0;
     overlay.style.animation = "spinDiv 1s forwards";
+    
 
-};
+});
 
 
 ;

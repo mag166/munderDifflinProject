@@ -14,10 +14,11 @@ header a{
     font-size: 20px;
 }
 
-
+section{
+    display: flex;
+}
 
 #section1{
-    display: flex;
     text-align:center;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +36,8 @@ header a{
     padding:20px;
     animation: show 2s forwards
 }
-#section1 h1{
+#section1 p{
+    font-size:30px;
     opacity: 0;
     animation: show 2s forwards;
 }
@@ -47,16 +49,19 @@ a:hover{
 #section2{
     background-color:#74b9ff;
     position: relative;
-    display:flex;
     flex-direction: row;
     justify-content: space-around;
     height:700px;
 }
 
-#section2 h1{
+#section2 h2{
     position: absolute;
     font-size:50px;
     top:30px;
+}
+
+#section2 p{
+    font-size:30px;
 }
 
 #img2{
@@ -75,7 +80,7 @@ a:hover{
 #section2 img:hover{
     transform: scale(1.5);
 }
-.imgCaption{
+.img-caption{
     opacity: 0;
     align-self: center;
     text-align: center;
@@ -85,12 +90,11 @@ a:hover{
     background-color: #55efc4;
     height:700px;
     text-align: center;
-    display: flex;
     justify-content: flex-start;
     flex-direction: column;
 }
 
-#section3 h1 {
+#section3 h2 {
        font-size:50px;
 }
 
@@ -107,10 +111,9 @@ a:hover{
     opacity: 0;
 }
 
-#imageSection{
+#image-section{
     height:700px;
     background-image:url("trees.png");
-    display:flex;
     justify-content: center;
 }
 #overlay{
@@ -130,11 +133,10 @@ a:hover{
     background-color:#74b9ff;
     height: 700px;
     text-align:center;
-    display:flex;
     justify-content: center;
 }
 
-#section4 h1{
+#section4 h2{
     font-size:50px;
     position: absolute;
 }
